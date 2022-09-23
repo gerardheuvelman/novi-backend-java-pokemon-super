@@ -6,6 +6,17 @@ public abstract class Pokemon {
     private String food;
     private String sound;
 
+
+    public Pokemon() {
+        this.name = "Unknown";
+        this.type = "Unknown";
+        this.level = 0;
+        this.hp = 0;
+        this.food = "Unknown";
+        this.sound = "Unknown";
+
+    }
+
     public Pokemon(String name, String type, int level, int hp, String food, String sound) {
         this.name = name;
         this.type = type;
