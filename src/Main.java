@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
+    // deze tekst heb ik toegevoegd omdat er een verschil moet zijn tussen de branch Main en de branch Uitwerkingen.
     public static void main(String[] args) {
 
         System.out.println();
